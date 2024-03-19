@@ -1,0 +1,62 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #888484;
+    border-radius: 5px;
+    outline:none;
+}
+
+.odustani{
+    background-color: red;
+    color: #eb1717;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: left;
+    width: 50%;
+}
+
+.prijava{
+background-color: green;
+padding: 10px 20px;
+float:left;
+width:50%;
+}
+
+.spremi:hover, .odbaci:hover {
+    opacity:1;
+
+}
+
+hr{
+    border: 1px rgb(155, 148, 155);
+margin-bottom: 25px;
+}
+
+@media screen and (max-width:300px){
+.spremi, .odbaci {
+    width:100%;
+}
+
+}
+
+.container {
+padding: 16px;
+}
+
+.clearfix::after{
+content: "";
+clear: both;
+display:table;
+
+}
